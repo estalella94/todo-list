@@ -1,4 +1,3 @@
-
 /*------------*/
 //1.REQUSITOS
 /*------------*/
@@ -10,7 +9,7 @@
 
 //1.2 traducir a Funcionalidades de HTML, JS , parted de la aplicación
 // - Input con nombre de tarea
-// - Botón para agregar tarea 
+// - Botón para agregar tarea
 // - Listado de tareas
 // - Botón de eliminar tareas
 // - Botón eliminar tareas individuales
@@ -18,18 +17,16 @@
 //1.3 Definir acciones de usuario (inputs del programa)
 // - Agragar tarea
 // - Eliminar (tarea o tareas)
-// - Mostrar por pantalla 
+// - Mostrar por pantalla
 
 //1.4 Definir resultado a mostrar (API + acciones usuario -> output)
 // -Lista de tareas
-
-
 
 /*-----------------*/
 //2.PLANIFICACIÓN
 /*-----------------*/
 
-// 2.1 Hitos de la aplicación 
+// 2.1 Hitos de la aplicación
 // - Crear un HTML estático
 // - Montar una estructura del javascript -> estructura & pseudocódigo
 // - Implementar lógica JS para que sea dinámico
@@ -48,3 +45,29 @@
 var input = document.getElementById("userInput");
 var button = document.getElementById("button");
 var ul = document.getElementById("ul");
+
+//2.FUNCIONES
+
+//Aagregar tarea
+function addListAfterClick() {}
+
+// Añadir tarea en HTML
+
+function createListElement() {}
+
+// Eliminar tarea
+
+function removeList() {}
+
+// Limpiar tarea
+
+function cleanList() {}
+
+//Modificar tarea
+function modifyList() {}
+
+//.3 Eventos
+
+//click boton
+
+//apretar tecla?
