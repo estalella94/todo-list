@@ -38,10 +38,10 @@
 // - Mejorar maquetación
 
 //2.2 Tareas concretas -> ganar focus
-// - [HTML] Crear Input y button boostrap y dejar espacio para el listado <ul> [1h]
-// - [JS] Definir las variables que necesitará el programa
-// - [JS] Escribir todas las funciones vacias de javaScript
-// - [JS] Rellenar lógica de las funciones una a una -> probar -> siguiente
-// - [JS] Mostrar al usuario el listado de tareas
-// - [HTML] Mejorari interficie
+// -  C1[HTML]Implementar Bootstrap + Crear Input y button boostrap y dejar espacio para el listado <ul> [1h]
+// -  C2[JS] Definir las variables que necesitará el programa
+// -  C3[JS] Escribir todas las funciones vacias de javaScript [1h]
+// -  C4[JS] Rellenar lógica de las funciones una a una -> probar -> siguiente [3h]
+// -  C5[JS] Mostrar al usuario el listado de tareas
+// -  C6[HTML] Mejorari interficie[2h]
 
