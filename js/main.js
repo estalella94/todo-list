@@ -44,30 +44,46 @@
 
 var input = document.getElementById("userInput");
 var button = document.getElementById("button");
-var ul = document.getElementById("ul");
+var ul = document.querySelector("ul");
 
 //2.FUNCIONES
 
 //Aagregar tarea
-function addListAfterClick() {}
-
+function handleClick() {
+    if(input.value.length > 0){
+    createListElement();
+    }
+    
+}
 // Añadir tarea en HTML
 
-function createListElement() {}
+function createListElement() {
+    var li = document.createElement('li');
+    li.innerHTML = input.value;
+    li.classList.add("list-group-item");
+    ul.appendChild(li);
+}
 
-// Eliminar tarea
-
-function removeList() {}
 
 // Limpiar tarea
 
-function cleanList() {}
+function cleanList() {
+
+}
+
+// Eliminar tarea
+
+function removeList() {
+
+}
 
 //Modificar tarea
-function modifyList() {}
+function modifyList() {
+
+}
 
 //.3 Eventos
 
 //click boton
-
+button.addEventListener("click", handleClick );
 //apretar tecla?
