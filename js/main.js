@@ -45,3 +45,6 @@
 // -  C5[JS] Mostrar al usuario el listado de tareas
 // -  C6[HTML] Mejorari interficie[2h]
 
+var input = document.getElementById("userInput");
+var button = document.getElementById("button");
+var ul = document.getElementById("ul");
